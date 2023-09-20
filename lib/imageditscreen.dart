@@ -42,13 +42,11 @@ class _EdState extends State<EditScreen> {
         if (result != null) {
           em = "Image saved successfully";
         } else {
-          em = "Failed to save screenshot";
+          em = "Failed to save Editted Image";
         }
-      } else {
-        em = "Error: Captured screenshot is null";
       }
     } catch (e) {
-      em = "Error capturing and saving screenshot";
+      em = "Error capturing and saving Editted Image";
     }
     showAlertDialog(context, result: em);
   }
