@@ -1,4 +1,4 @@
-# gdsc
+# A Very Bssic Colour Filter App
 
 A new Flutter project.
 
